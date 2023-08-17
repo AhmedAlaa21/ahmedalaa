@@ -14,7 +14,7 @@ const Header = () => {
           {/* logo */}
           <Link href="/">
             <p
-              className="w-[220px]  font-bold "
+              // className="w-[220px] font-bold "
               style={{ color: "#fff", fontSize: "40px" }}
             >
               Ahmed<span className="text-accent">Alaa</span>.
