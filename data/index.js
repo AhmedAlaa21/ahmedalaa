@@ -2,6 +2,7 @@ import {
   RiFacebookLine,
   RiGitBranchLine,
   RiLinkedinLine,
+  RiSeoFill,
 } from "react-icons/ri";
 
 import {
@@ -17,15 +18,12 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiJavascript,
 } from "react-icons/si";
 
-import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxRocket,
-} from "react-icons/rx";
+import { TiSocialFacebook } from "react-icons/ti";
+
+import { RxMobile } from "react-icons/rx";
 
 export const SocialData = [
   {
@@ -124,28 +122,33 @@ export const aboutData = [
 // data
 export const serviceData = [
   {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <SiJavascript />,
+    title: "Web Development",
+    description:
+      "Crafting immersive online experiences through coding, design, and functionality.",
   },
   {
-    icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <RxMobile />,
+    title: "Mobile Applications",
+    description:
+      "Building seamless and engaging cross-platform applications for both iOS and Android ecosystems.",
   },
   {
-    icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxRocket />,
+    icon: <RiSeoFill />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Optimizing digital presence to enhance visibility and drive organic growth in search engine rankings.",
+  },
+  {
+    icon: <FaFigma />,
+    title: "Solid ui to Real-World Applications",
+    description:
+      "Transforming design concepts into functional, user-friendly applications from visual prototypes.",
+  },
+  {
+    icon: <TiSocialFacebook />,
+    title: "Social Media Management",
+    description:
+      "Strategically amplifying brand identity and engagement across diverse social platforms.",
   },
 ];
