@@ -8,7 +8,7 @@ const testimonialData = [
       "I had the pleasure of working with Ahmed on a complex web application project",
   },
   {
-    image: "/t-avt-2.png",
+    image: "/t-avt-3.png",
     name: "Mohamed Galal",
     position: "Backend-developer",
     message:
@@ -34,7 +34,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Navigation, Pagination } from "swiper";
 
-import { FaQuouteLeft } from "react-icons/fa";
+import { FaQuoteLeft } from "react-icons/fa";
 
 //next image
 import Image from "next/image";
@@ -86,7 +86,7 @@ const TestimonialSlider = () => {
               >
                 {/* quote icons */}
                 <div className="mb-4">
-                  <FaQuouteLeft className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
+                  <FaQuoteLeft className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0" />
                 </div>
                 {/* message */}
                 <div className="xl:text-lg text-center md:text-left">
