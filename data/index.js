@@ -19,6 +19,14 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
+import {
+  RxCrop,
+  RxDesktop,
+  RxPencil2,
+  RxReader,
+  RxRocket,
+} from "react-icons/rx";
+
 export const SocialData = [
   {
     id: 0,
@@ -110,5 +118,34 @@ export const aboutData = [
         stage: "2020",
       },
     ],
+  },
+];
+
+// data
+export const serviceData = [
+  {
+    icon: <RxCrop />,
+    title: "Branding",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    icon: <RxPencil2 />,
+    title: "Design",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    icon: <RxDesktop />,
+    title: "Development",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    icon: <RxReader />,
+    title: "Copywriting",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    icon: <RxRocket />,
+    title: "SEO",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
