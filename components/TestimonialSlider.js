@@ -37,7 +37,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper";
 
-import { BsArrowRight } from "react-icons/bs";
+import { FaArrowRight } from "react-icons/fa";
 
 const TestimonialSlider = () => {
   return (
@@ -52,21 +52,21 @@ const TestimonialSlider = () => {
       {testimonialData.map((person, itemIndex) => {
         return (
           <SwiperSlide key={itemIndex}>
-      <div>
-        {/* avatar, name, position */}
-        <div>
-          <div>
-            {/* avatar */}
-            <div>avatar image</div>
-            {/* namee */}
-            <div>name</div>
-            {/* position */}
-            <div>position</div>
-          </div>
-        </div>
-        {/* quote - message */}
-        <div>quote & message</div>
-      </div>
+            <div>
+              {/* avatar, name, position */}
+              <div>
+                <div>
+                  {/* avatar */}
+                  <div>avatar image</div>
+                  {/* name */}
+                  <div>name</div>
+                  {/* position */}
+                  <div>position</div>
+                </div>
+              </div>
+              {/* quote - message */}
+              <div>quote & message</div>
+            </div>
           </SwiperSlide>
         );
       })}
@@ -74,5 +74,4 @@ const TestimonialSlider = () => {
   );
 };
 
-export default TestimonialSlider
-
+export default TestimonialSlider;
