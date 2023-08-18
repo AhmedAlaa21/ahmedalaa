@@ -86,10 +86,6 @@ export const aboutData = [
         stage: "2020 - 2022",
       },
       {
-        title: "Ecommerce Manager - Easy Control",
-        stage: "2020 - 2023",
-      },
-      {
         title: "Social Media Specialist - Mindev",
         stage: "2022 - 2023",
       },
@@ -106,14 +102,6 @@ export const aboutData = [
       {
         title: "Computer Science Bachelor - Faculty of Science",
         stage: "2019",
-      },
-      {
-        title: "Android Native Development - Google Mobile Launchpad",
-        stage: "2016",
-      },
-      {
-        title: "Social Media Marketing Diploma",
-        stage: "2020",
       },
     ],
   },
