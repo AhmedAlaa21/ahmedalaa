@@ -86,6 +86,10 @@ export const aboutData = [
         stage: "2020 - 2022",
       },
       {
+        title: "Ecommerce Manager - Easy Control",
+        stage: "2020 - 2023",
+      },
+      {
         title: "Social Media Specialist - Mindev",
         stage: "2022 - 2023",
       },
